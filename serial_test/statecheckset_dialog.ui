@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>statecheckset_dialog</class>
+ <widget class="QDialog" name="statecheckset_dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>202</width>
+    <height>240</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>State Check Set</string>
+  </property>
+  <widget class="QCheckBox" name="DriverOnlieCheck_checkBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>151</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>DriverOnlieCheck</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="ErrorOverCheck_checkBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>151</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ErrorOverCheck</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="CableOverTightCheck_checkBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>191</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CableOverTightCheck</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="VelocityOverCheck_checkBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>151</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>VelocityOverCheck</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="CurrentOverCheck_checkBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>151</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CurrentOverCheck</string>
+   </property>
+  </widget>
+  <widget class="QCheckBox" name="CableOverLoseCheck_checkBox">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>110</y>
+     <width>181</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>CableOverLoseCheck</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="StateCheckApply_pushButton">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>200</y>
+     <width>71</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Apply</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
